@@ -3,10 +3,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./component/page/HomePage";
 import "./App.css";
 import ScrollImage from "./component/helpers/ScrollImage";
-import AboutPage from "./component/page/AboutPage";
-import ContactPage from "./component/page/ContactPage";
-import ProductPage from "./component/page/ProductPage";
-import ShoppingPage from "./component/page/ShoppingPage";
 
 const App = () => {
   useEffect(() => {
@@ -26,10 +22,9 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<HomePage />} />
-          <Route exact path="/about" element={<AboutPage />} />
-          <Route exact path="/contact" element={<ContactPage />} />
-          <Route path="/product" element={<ProductPage />} />
-          <Route path="/shop" element={<ShoppingPage />} />
+          {/* <Route exact path="/about" element={<About />} />
+          <Route exact path="/works" element={<Works />} />
+          <Route path="/contact" element={<SocialFollow />} /> */}
         </Routes>
       </BrowserRouter>
     </div>
