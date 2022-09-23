@@ -1,50 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./App.css";
 
-const App = () => {
-  useEffect(() => {
-    const handleScroll = (event) => {
-      let stars1 = document.getElementById("stars1");
-      let moon2 = document.getElementById("moon2");
-      let mountains3 = document.getElementById("mountains3");
-      let mountains4 = document.getElementById("mountains4");
-      let river5 = document.getElementById("river5");
-      let boat6 = document.getElementById("boat6");
-      let shop = document.querySelector(".Shop");
-      let value = window.scrollY;
-      stars1.style.left = value + "px";
-      moon2.style.top = value * 4 + "px";
-      mountains3.style.top = value * 2 + "px";
-      mountains4.style.top = value * 1.5 + "px";
-      river5.style.top = value + "px";
-      boat6.style.top = value + "px";
-      boat6.style.left = value * 3 + "px";
-      shop.style.fontSize = value + "px";
-      if (window.scrollY >= 67) {
-        shop.style.fontSize = 67 + "px";
-        shop.style.position = "fixed";
-        if (window.scrollY >= 480) {
-          shop.style.display = "none";
-        } else {
-          shop.style.display = "flex";
-        }
-        if (window.scrollY >= 128) {
-          document.querySelector(".main").style.background =
-            "linear-gradient(#376281, #10001f)";
-        } else {
-          document.querySelector(".main").style.background =
-            "linear-gradient(#200016, #10001f)";
-        }
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
+function App() {
   return (
     <div className="">
       <header>
@@ -74,14 +31,14 @@ const App = () => {
         </ul>
       </header>
       <section className="main">
-        <img src="./stars1.png" id="stars1" />
-        <h2 className="Shop">Shoping</h2>
-        <img src="./moon2.png" id="moon2" />
-        <img src="./mountains3.png" id="mountains3" />
-        <img src="./mountains4.png" id="mountains4" />
-        <img src="./river5.png" id="river5" />
-        <img src="./boat6.png" id="boat6" />
-        <img src="./mountains7.png" id="mountains3" />
+        <img src="./stars1.png" alt="stars1" id="stars1" />
+        <h2 className="Shop">Shop</h2>
+        <img src="./moon2.png" alt="moon2" id="moon2" />
+        <img src="./mountains3.png" alt="mountains3" id="mountains3" />
+        <img src="./mountains4.png" alt="mountains4" id="mountains4" />
+        <img src="./river5.png" alt="river5" id="river5" />
+        <img src="./boat6.png" alt="boat6" id="boat6" />
+        <img src="./mountains7.png" alt="mountains3" id="mountains7" />
       </section>
       <div className="content">
         <h2>
@@ -146,6 +103,6 @@ const App = () => {
       </div>
     </div>
   );
-};
+}
 
 export default App;

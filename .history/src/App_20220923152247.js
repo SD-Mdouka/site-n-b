@@ -31,9 +31,6 @@ const App = () => {
         if (window.scrollY >= 128) {
           document.querySelector(".main").style.background =
             "linear-gradient(#376281, #10001f)";
-        } else {
-          document.querySelector(".main").style.background =
-            "linear-gradient(#200016, #10001f)";
         }
       }
     };

@@ -51,7 +51,6 @@ header ul li a:hover,
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
 .main::after {
@@ -81,7 +80,7 @@ header ul li a:hover,
 
 .Shop {
     color: #fff;
-    font-size: 25px;
+    font-size: 30px;
     text-transform: uppercase;
     transform: translateY(-140px);
     -webkit-transform: translateY(-140px);
@@ -93,7 +92,6 @@ header ul li a:hover,
 .content {
     color: #fff;
     padding: 30px;
-    margin-top: 10px;
 }
 
 .content p {

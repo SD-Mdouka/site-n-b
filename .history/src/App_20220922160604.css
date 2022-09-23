@@ -51,16 +51,6 @@ header ul li a:hover,
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-}
-
-.main::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-    background: linear-gradient(to top, #200016, transparent);
 }
 
 .main img {
@@ -68,6 +58,10 @@ header ul li a:hover,
     width: 100%;
     height: 100vh;
     object-fit: cover;
+}
+
+#mountains7 {
+    height: 100px !important;
 }
 
 #moon2 {
@@ -81,7 +75,7 @@ header ul li a:hover,
 
 .Shop {
     color: #fff;
-    font-size: 25px;
+    font-size: 30px;
     text-transform: uppercase;
     transform: translateY(-140px);
     -webkit-transform: translateY(-140px);
@@ -92,15 +86,14 @@ header ul li a:hover,
 
 .content {
     color: #fff;
-    padding: 30px;
-    margin-top: 10px;
-}
-
-.content p {
-    margin: 20px;
+    padding: 20px;
 }
 
 .content h2 {
     margin: 20px;
     font-size: 30px;
+}
+
+.content p {
+    margin: 20px;
 }
