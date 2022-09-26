@@ -49,14 +49,17 @@
     padding: 30px;
     margin-top: 10px;
     overflow-y: scroll;
-    height: 2500px;
 }
 
 .content p {
     margin: 20px;
+    font-size: 25px;
 }
 
 .content h2 {
     margin: 20px;
     font-size: 30px;
+    color: #333;
+    text-shadow: #fff;
+    background: linear-gradient(#42a5fc, #10001f);
 }
