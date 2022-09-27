@@ -16,7 +16,6 @@ export const ContactSection = styled.div`
 `;
 
 export const ContactTitle = styled.h2`
-  postion: realtive;
   font-size: 60px;
   margin-bottom: 30px;
   @media (max-width: 575px) {

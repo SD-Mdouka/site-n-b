@@ -17,7 +17,7 @@ const About = () => {
         <AboutInfo>
           <TitleSection>
             <TitleSpan>
-              M.A. GLOBAL CONSULTING - THE LEGAL 500 RANKINGS
+              M.A. GLOBAL CONSULTING > THE LEGAL 500 RANKINGS
             </TitleSpan>
           </TitleSection>
           <Directly>About Director</Directly>

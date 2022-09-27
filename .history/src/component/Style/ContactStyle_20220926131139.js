@@ -16,16 +16,11 @@ export const ContactSection = styled.div`
 `;
 
 export const ContactTitle = styled.h2`
-  postion: realtive;
   font-size: 60px;
   margin-bottom: 30px;
   @media (max-width: 575px) {
     font-size: 40px;
   }
-`;
-
-export const TitelSpan = styled.span`
-  font-weight: normal;
   &::after {
     position: absolute;
     content: "";
@@ -37,6 +32,10 @@ export const TitelSpan = styled.span`
     height: 67px;
     z-index: -1;
   }
+`;
+
+export const TitelSpan = styled.span`
+  font-weight: normal;
 `;
 
 export const Contactform = styled.form`

@@ -1,13 +1,13 @@
 import React from "react";
+import About from "../share-component/About";
 import { Layout } from "../share-component/Layout/Layout";
-import Contact from "../share-component/Contact";
 
-const ContactPage = () => {
+const AboutPage = () => {
   return (
     <Layout>
-      <Contact />
+      <About />
     </Layout>
   );
 };
 
-export default ContactPage;
+export default AboutPage;
