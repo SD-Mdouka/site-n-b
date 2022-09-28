@@ -1,6 +1,19 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
-import { SocialMedi, Social, Icon, TextInfo, Info, Info2 } from "./style.jsx";
+import {
+  SocialMedi,
+  Social,
+  Icon,
+  TextInfo,
+  Info,
+  Info2,
+} from "../../../Style/styleContact";
+
+import {
+  AiFillYoutube,
+  AiFillTwitterCircle,
+  AiOutlineFacebook,
+} from "react-icons/ai";
 // funcion component
 
 const SocialMedia = () => {
@@ -13,7 +26,10 @@ const SocialMedia = () => {
   const ListSocial = social.map((itemSocail) => {
     return (
       <Social item={itemSocail.id} key={itemSocail.id}>
-        <Icon className={itemSocail.icon}></Icon>
+        <Icon>
+          {/* , twitter, youtuob, Watsappe */}
+          {/* {(itemSocail.icon === 'facebook') && ()} */}
+        </Icon>
         <TextInfo>
           <Info>{itemSocail.title}</Info>
           <Info2>{itemSocail.body}</Info2>
