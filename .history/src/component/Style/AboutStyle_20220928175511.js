@@ -62,14 +62,11 @@ export const ListProfile = styled.ul`
 export const ItemProfile = styled.li`
   margin-left: 20px;
   padding: 10px;
-  color: #eee;
 `;
 
 export const ItemSpan = styled.span`
   display: block;
   font-weight: bold;
-  font-size: 20px;
-  background: linear-gradient(#5a819c, #541d86);
 `;
 
 export const ItemSpanweb = styled.span`

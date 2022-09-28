@@ -43,7 +43,6 @@ export const JeunesMorocco = styled.span`
 /*end*/
 export const Profil = styled.div`
   float: none;
-  color: #fff;
   @media (max-width: 768px) {
     width: 100%;
     float: none;
@@ -62,14 +61,11 @@ export const ListProfile = styled.ul`
 export const ItemProfile = styled.li`
   margin-left: 20px;
   padding: 10px;
-  color: #eee;
 `;
 
 export const ItemSpan = styled.span`
   display: block;
   font-weight: bold;
-  font-size: 20px;
-  background: linear-gradient(#5a819c, #541d86);
 `;
 
 export const ItemSpanweb = styled.span`
@@ -106,32 +102,31 @@ export const TitelProgress = styled.span`
 export const Pourcentage = styled.span`
   float: right;
   margin-right: 100px;
-  color: #fff;
 `;
 
 export const Progress = styled.div`
-  height: 14px;
+  height: 2px;
   clear: both;
-  background: linear-gradient(#5a819c, #541d86);
+  background: #f8f8f8;
   position: relative;
-  top: 10px;
+  top: 5px;
 `;
 
 export const VolumProgress = styled.div`
   background: #eb5424;
   position: absolute;
   display: block;
-  padding: 10px;
+  padding-top: 10px;
   top: 0;
   left: 0;
   bottom: 0;
-  width: ${(props) => (props.porc === "7,2%" ? "70%" : "")};
+  width: ${(props) => (props.porc === "7,2%" ? "100%" : "")};
   width: ${(props) => (props.porc === "1,5%" ? "40%" : "")};
   width: ${(props) => (props.porc === "1.8%" ? "45%" : "")};
 `;
 
 export const ProgOwn = styled.span`
-  width: 70%;
+  width: 100%;
 `;
 
 export const ProgTow = styled.span`

@@ -24,6 +24,7 @@ const ListProf = () => {
     return (
       <ListProfile key={profilItme.id}>
         <Image>
+          <ItemSpanweb> {profilItme.name}</ItemSpanweb>
           <ItemProfile>
             <ImageProfil src={profilItme.image} alt="" />
           </ItemProfile>

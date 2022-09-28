@@ -43,7 +43,6 @@ export const JeunesMorocco = styled.span`
 /*end*/
 export const Profil = styled.div`
   float: none;
-  color: #fff;
   @media (max-width: 768px) {
     width: 100%;
     float: none;
@@ -62,14 +61,11 @@ export const ListProfile = styled.ul`
 export const ItemProfile = styled.li`
   margin-left: 20px;
   padding: 10px;
-  color: #eee;
 `;
 
 export const ItemSpan = styled.span`
   display: block;
   font-weight: bold;
-  font-size: 20px;
-  background: linear-gradient(#5a819c, #541d86);
 `;
 
 export const ItemSpanweb = styled.span`
@@ -110,11 +106,11 @@ export const Pourcentage = styled.span`
 `;
 
 export const Progress = styled.div`
-  height: 14px;
+  height: 12px;
   clear: both;
   background: linear-gradient(#5a819c, #541d86);
   position: relative;
-  top: 10px;
+  top: 5px;
 `;
 
 export const VolumProgress = styled.div`
